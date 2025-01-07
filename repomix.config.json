@@ -1,0 +1,25 @@
+{
+  "output": {
+    "filePath": "repo-output.txt",
+    "style": "plain",
+    "removeComments": false,
+    "removeEmptyLines": true,
+    "showLineNumbers": false,
+    "topFilesLength": 0
+  },
+  "include": [
+    "**/*"
+  ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      ".github",
+      "**/*.log",
+      "node_modules",
+      "package-lock.json",
+      "bun.lockb",
+      "repomix.config.json"
+    ]
+  }
+}
