@@ -14,11 +14,18 @@
     "useGitignore": true,
     "useDefaultPatterns": true,
     "customPatterns": [
-      ".github",
-      "**/*.log",
-      "node_modules",
-      "package-lock.json",
-      "bun.lockb",
+      "node_modules/",
+      "vendor/",
+      "storage/*",
+      "bootstrap/cache/",
+      "public/build/",
+      "public/hot",
+      ".env*",
+      ".idea/",
+      ".vscode/",
+      ".git/",
+      "*.log",
+      "*.bak",
       "repomix.config.json"
     ]
   }
