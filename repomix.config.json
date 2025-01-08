@@ -1,6 +1,6 @@
 {
   "output": {
-    "filePath": "repo-output.txt",
+    "filePath": "backend-repo-output.txt",
     "style": "plain",
     "removeComments": false,
     "removeEmptyLines": true,
